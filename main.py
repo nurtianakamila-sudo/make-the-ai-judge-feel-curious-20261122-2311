@@ -5,6 +5,8 @@ Writes a single short text to /output/entry.txt. Deterministic:
 no network, no randomness, no timestamps, same bytes on every run.
 """
 
+# Output is capped at 280 Unicode code points by the competition rules; this text is 219.
+
 import os
 
 TEXT = (
